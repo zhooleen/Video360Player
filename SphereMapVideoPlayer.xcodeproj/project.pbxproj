@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E13BDFB1D863CC9002D48DB /* SMTextureLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E13BDFA1D863CC9002D48DB /* SMTextureLoader.m */; };
+		3E13BDFD1D86443A002D48DB /* spheremap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E13BDFC1D86443A002D48DB /* spheremap.png */; };
+		3E13BE001D864CB4002D48DB /* SMVideoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E13BDFF1D864CB4002D48DB /* SMVideoReader.m */; };
+		3E13BE021D8653E0002D48DB /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3E13BE011D8653E0002D48DB /* videoplayback.mp4 */; };
+		3EBC1BC31D85267E0075874D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC1BC21D85267E0075874D /* main.m */; };
+		3EBC1BC61D85267E0075874D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC1BC51D85267E0075874D /* AppDelegate.m */; };
+		3EBC1BCC1D85267E0075874D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC1BCA1D85267E0075874D /* Main.storyboard */; };
+		3EBC1BCE1D85267E0075874D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC1BCD1D85267E0075874D /* Assets.xcassets */; };
+		3EBC1BD11D85267E0075874D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBC1BCF1D85267E0075874D /* LaunchScreen.storyboard */; };
+		3EBC1BE71D852DEF0075874D /* SMMetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC1BE61D852DEF0075874D /* SMMetalView.m */; };
+		3EBC1BEA1D853AEC0075874D /* SMRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC1BE91D853AEC0075874D /* SMRenderer.m */; };
+		3EBC1BEE1D853BF80075874D /* SMSphereMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC1BED1D853BF80075874D /* SMSphereMesh.m */; };
+		3EBC1BF41D853E050075874D /* SMUniformBufferProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC1BF31D853E050075874D /* SMUniformBufferProvider.m */; };
+		3EBC1BF61D855A590075874D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC1BF51D855A590075874D /* Shaders.metal */; };
+		3EBC1BF91D855CE90075874D /* SMMetalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBC1BF81D855CE90075874D /* SMMetalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E13BDF81D85AEE5002D48DB /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Types.h; path = Classes/Types.h; sourceTree = "<group>"; };
+		3E13BDF91D863CC9002D48DB /* SMTextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMTextureLoader.h; path = Classes/SMTextureLoader.h; sourceTree = "<group>"; };
+		3E13BDFA1D863CC9002D48DB /* SMTextureLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMTextureLoader.m; path = Classes/SMTextureLoader.m; sourceTree = "<group>"; };
+		3E13BDFC1D86443A002D48DB /* spheremap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spheremap.png; path = Resources/Spheremaps/spheremap.png; sourceTree = "<group>"; };
+		3E13BDFE1D864CB4002D48DB /* SMVideoReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMVideoReader.h; path = Classes/SMVideoReader.h; sourceTree = "<group>"; };
+		3E13BDFF1D864CB4002D48DB /* SMVideoReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMVideoReader.m; path = Classes/SMVideoReader.m; sourceTree = "<group>"; };
+		3E13BE011D8653E0002D48DB /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = videoplayback.mp4; path = Resources/Videos/videoplayback.mp4; sourceTree = "<group>"; };
+		3E13BE031D8665D4002D48DB /* SMTransforms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SMTransforms.h; path = Classes/SMTransforms.h; sourceTree = "<group>"; };
+		3EBC1BBE1D85267E0075874D /* SphereMapVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphereMapVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EBC1BC21D85267E0075874D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EBC1BC41D85267E0075874D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EBC1BC51D85267E0075874D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EBC1BCB1D85267E0075874D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EBC1BCD1D85267E0075874D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EBC1BD01D85267E0075874D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EBC1BD21D85267E0075874D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EBC1BE51D852DEF0075874D /* SMMetalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMMetalView.h; path = Classes/SMMetalView.h; sourceTree = "<group>"; };
+		3EBC1BE61D852DEF0075874D /* SMMetalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMMetalView.m; path = Classes/SMMetalView.m; sourceTree = "<group>"; };
+		3EBC1BE81D853AEC0075874D /* SMRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMRenderer.h; path = Classes/SMRenderer.h; sourceTree = "<group>"; };
+		3EBC1BE91D853AEC0075874D /* SMRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMRenderer.m; path = Classes/SMRenderer.m; sourceTree = "<group>"; };
+		3EBC1BEB1D853B800075874D /* SMMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMMesh.h; path = Classes/SMMesh.h; sourceTree = "<group>"; };
+		3EBC1BEC1D853BF80075874D /* SMSphereMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMSphereMesh.h; path = Classes/SMSphereMesh.h; sourceTree = "<group>"; };
+		3EBC1BED1D853BF80075874D /* SMSphereMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMSphereMesh.m; path = Classes/SMSphereMesh.m; sourceTree = "<group>"; };
+		3EBC1BF21D853E050075874D /* SMUniformBufferProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMUniformBufferProvider.h; path = Classes/SMUniformBufferProvider.h; sourceTree = "<group>"; };
+		3EBC1BF31D853E050075874D /* SMUniformBufferProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMUniformBufferProvider.m; path = Classes/SMUniformBufferProvider.m; sourceTree = "<group>"; };
+		3EBC1BF51D855A590075874D /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = Shaders.metal; path = Classes/Shaders.metal; sourceTree = "<group>"; };
+		3EBC1BF71D855CE90075874D /* SMMetalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMMetalViewController.h; path = Classes/SMMetalViewController.h; sourceTree = "<group>"; };
+		3EBC1BF81D855CE90075874D /* SMMetalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMMetalViewController.m; path = Classes/SMMetalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EBC1BBB1D85267E0075874D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E13BDF61D85A8EB002D48DB /* Mesh */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC1BEB1D853B800075874D /* SMMesh.h */,
+				3EBC1BEC1D853BF80075874D /* SMSphereMesh.h */,
+				3EBC1BED1D853BF80075874D /* SMSphereMesh.m */,
+			);
+			name = Mesh;
+			sourceTree = "<group>";
+		};
+		3E13BDF71D85A925002D48DB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC1BF21D853E050075874D /* SMUniformBufferProvider.h */,
+				3EBC1BF31D853E050075874D /* SMUniformBufferProvider.m */,
+				3E13BDF91D863CC9002D48DB /* SMTextureLoader.h */,
+				3E13BDFA1D863CC9002D48DB /* SMTextureLoader.m */,
+				3E13BDFE1D864CB4002D48DB /* SMVideoReader.h */,
+				3E13BDFF1D864CB4002D48DB /* SMVideoReader.m */,
+				3E13BE031D8665D4002D48DB /* SMTransforms.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		3EBC1BB51D85267E0075874D = {
+			isa = PBXGroup;
+			children = (
+				3EBC1BC01D85267E0075874D /* SphereMapVideoPlayer */,
+				3EBC1BBF1D85267E0075874D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EBC1BBF1D85267E0075874D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC1BBE1D85267E0075874D /* SphereMapVideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EBC1BC01D85267E0075874D /* SphereMapVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC1BDA1D8526A10075874D /* UserInterface */,
+				3EBC1BD91D8526990075874D /* Resources */,
+				3EBC1BD81D8526880075874D /* Classes */,
+			);
+			path = SphereMapVideoPlayer;
+			sourceTree = "<group>";
+		};
+		3EBC1BC11D85267E0075874D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC1BC21D85267E0075874D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EBC1BD81D8526880075874D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E13BDF71D85A925002D48DB /* Util */,
+				3E13BDF61D85A8EB002D48DB /* Mesh */,
+				3EBC1BE51D852DEF0075874D /* SMMetalView.h */,
+				3EBC1BE61D852DEF0075874D /* SMMetalView.m */,
+				3E13BDF81D85AEE5002D48DB /* Types.h */,
+				3EBC1BE81D853AEC0075874D /* SMRenderer.h */,
+				3EBC1BE91D853AEC0075874D /* SMRenderer.m */,
+				3EBC1BF51D855A590075874D /* Shaders.metal */,
+				3EBC1BF71D855CE90075874D /* SMMetalViewController.h */,
+				3EBC1BF81D855CE90075874D /* SMMetalViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3EBC1BD91D8526990075874D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E13BE011D8653E0002D48DB /* videoplayback.mp4 */,
+				3E13BDFC1D86443A002D48DB /* spheremap.png */,
+				3EBC1BCD1D85267E0075874D /* Assets.xcassets */,
+				3EBC1BD21D85267E0075874D /* Info.plist */,
+				3EBC1BC11D85267E0075874D /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3EBC1BDA1D8526A10075874D /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				3EBC1BC41D85267E0075874D /* AppDelegate.h */,
+				3EBC1BC51D85267E0075874D /* AppDelegate.m */,
+				3EBC1BCA1D85267E0075874D /* Main.storyboard */,
+				3EBC1BCF1D85267E0075874D /* LaunchScreen.storyboard */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EBC1BBD1D85267E0075874D /* SphereMapVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EBC1BD51D85267E0075874D /* Build configuration list for PBXNativeTarget "SphereMapVideoPlayer" */;
+			buildPhases = (
+				3EBC1BBA1D85267E0075874D /* Sources */,
+				3EBC1BBB1D85267E0075874D /* Frameworks */,
+				3EBC1BBC1D85267E0075874D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphereMapVideoPlayer;
+			productName = SphereMapVideoPlayer;
+			productReference = 3EBC1BBE1D85267E0075874D /* SphereMapVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EBC1BB61D85267E0075874D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = redeight;
+				TargetAttributes = {
+					3EBC1BBD1D85267E0075874D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EBC1BB91D85267E0075874D /* Build configuration list for PBXProject "SphereMapVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EBC1BB51D85267E0075874D;
+			productRefGroup = 3EBC1BBF1D85267E0075874D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EBC1BBD1D85267E0075874D /* SphereMapVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EBC1BBC1D85267E0075874D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBC1BD11D85267E0075874D /* LaunchScreen.storyboard in Resources */,
+				3E13BDFD1D86443A002D48DB /* spheremap.png in Resources */,
+				3EBC1BCE1D85267E0075874D /* Assets.xcassets in Resources */,
+				3EBC1BCC1D85267E0075874D /* Main.storyboard in Resources */,
+				3E13BE021D8653E0002D48DB /* videoplayback.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EBC1BBA1D85267E0075874D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E13BDFB1D863CC9002D48DB /* SMTextureLoader.m in Sources */,
+				3EBC1BEE1D853BF80075874D /* SMSphereMesh.m in Sources */,
+				3EBC1BC61D85267E0075874D /* AppDelegate.m in Sources */,
+				3EBC1BF41D853E050075874D /* SMUniformBufferProvider.m in Sources */,
+				3EBC1BC31D85267E0075874D /* main.m in Sources */,
+				3EBC1BF61D855A590075874D /* Shaders.metal in Sources */,
+				3EBC1BEA1D853AEC0075874D /* SMRenderer.m in Sources */,
+				3EBC1BF91D855CE90075874D /* SMMetalViewController.m in Sources */,
+				3E13BE001D864CB4002D48DB /* SMVideoReader.m in Sources */,
+				3EBC1BE71D852DEF0075874D /* SMMetalView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EBC1BCA1D85267E0075874D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EBC1BCB1D85267E0075874D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EBC1BCF1D85267E0075874D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EBC1BD01D85267E0075874D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EBC1BD31D85267E0075874D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EBC1BD41D85267E0075874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EBC1BD61D85267E0075874D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SphereMapVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redeight.SphereMapVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EBC1BD71D85267E0075874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SphereMapVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redeight.SphereMapVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EBC1BB91D85267E0075874D /* Build configuration list for PBXProject "SphereMapVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBC1BD31D85267E0075874D /* Debug */,
+				3EBC1BD41D85267E0075874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EBC1BD51D85267E0075874D /* Build configuration list for PBXNativeTarget "SphereMapVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EBC1BD61D85267E0075874D /* Debug */,
+				3EBC1BD71D85267E0075874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EBC1BB61D85267E0075874D /* Project object */;
+}
